@@ -61,7 +61,14 @@ Participants are required to:
 1. Build the Docker image
 2. Run the Docker container
 
+Instead of 7860, mapped it to another port 7870:
 
+sh
+
+docker run -p 7870:7860 bike-rental-app
+Now, access the Gradio app at:
+
+http://localhost:7870
 
 
 
