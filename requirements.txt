@@ -1,5 +1,4 @@
-pandas
-numpy
-scikit-learn
+gradio 
 joblib
-gradio
+numpy
+
